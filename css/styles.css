@@ -1,0 +1,184 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* RESET DONE */
+
+body {
+  width: 1200px;
+  height: 710px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 93px 617px;
+}
+
+.title {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+  background-color: #177cc2;
+  padding: 29px 0 26px 28px;
+}
+
+.title h1 {
+  height: 38px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.pictures {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+  display: grid;
+  grid: 266px 266px / 366px 366px 366px;
+  gap: 25px 26px;
+  background-color: #e8e8e8;
+  padding: 25px 25px 35px;
+}
+
+.pictures div {
+    box-shadow: 0 0 15px rgba(33, 33, 33, 0.4);
+}
+
+img {
+  width: 100%;
+}
+
+.capital {
+  background-color: #ffffff;
+}
+
+h2 {
+  width: 93px;
+  height: 23px;
+  color: #000000;
+  font-size: 30px;
+  padding: 16px 0 21px 24px;
+}
